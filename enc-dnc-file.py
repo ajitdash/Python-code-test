@@ -8,7 +8,7 @@ Created on Mon Sep 11 13:36:26 2017
 
 from Crypto.Cipher import AES
 
-key = '0123456789abcdef'
+key = '0123x4567xxxxxxxxxxx89abcdef'
 IV = 16 * '\x00'           # Initialization vector: discussed later
 mode = AES.MODE_CBC
 encryptor = AES.new(key, mode, IV=IV)
